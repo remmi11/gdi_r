@@ -1,0 +1,41 @@
+
+    .add_page {
+        height:40px;
+        width:100px;
+        float:right;
+        font-size:16px;
+        font-weight:bold;
+    }
+
+    .page_box {
+        background-color: lightgrey;
+        height:200px;
+        width:98%;
+        margin:2%;
+        cursor:pointer;
+    }
+
+    .functions_box {
+        height:100%;
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .icon_box {
+        height: 30px;
+        line-height: 30px;
+        width: 30px;
+        border-radius: 20px;
+        background-color: white;
+        position: relative;
+    }
+
+    .functions_box i {
+        font-size: 20px;
+        color: #0a6aa1;
+        vertical-align: middle;
+        text-align: center;
+        display: block;
+        float:left;
+    }

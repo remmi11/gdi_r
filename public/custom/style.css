@@ -1,0 +1,281 @@
+
+.button, a, div, h1, h2, h3, h4, h5, h6, p, span {
+    font-family: Lato !important
+}
+
+.auth_title {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px
+}
+
+button, input[type=button], input[type=reset], input[type=submit] {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 17px 40px;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -ms-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s
+}
+
+button, input, select {
+    background-color: #333030 !important;
+    color: #fff !important
+}
+
+button, select {
+    -webkit-appearance: none;
+    text-shadow: none !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    font-size: 14px !important;
+    line-height: 24px !important
+}
+
+button:hover {
+    background-color: orange !important
+}
+
+.input_style, button, select {
+    height: 50px !important
+}
+
+.orange_button {
+    background-color: #ffa800 !important;
+    font-size: 17px !important
+}
+
+.orange_button:hover {
+    background-color: #ca8f1f !important
+}
+
+
+
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: -190px;
+    left: 0
+}
+
+.home_page .main_title_box {
+    position: absolute;
+    right: 40px;
+    height: 90px;
+    line-height: 55px;
+    color: #262F56;
+    font-weight: 300 !important;
+    bottom: 100px
+}
+
+.start-button.start_right {
+    z-index: 999;
+    position: absolute;
+    right: 40px;
+    bottom: 55px;
+    width: 250px;
+    line-height: 58px;
+    font-size: 44px;
+    height: 65px
+}
+
+.start-button.start_right .fa {
+    padding-left: 15px;
+    position: relative;
+    top: 4px
+}
+
+@media only screen and (max-width: 1200px) {
+    .home_page .main_title_box {
+        right: 10px;
+        bottom: 70px
+    }
+
+    .start-button.start_right {
+        z-index: 999;
+        position: absolute;
+        right: 100px;
+        bottom: 25px;
+        width: 250px;
+        line-height: 58px;
+        font-size: 44px;
+        height: 65px
+    }
+
+    .start-button.start_right .fa {
+        padding-left: 15px;
+        position: relative;
+        top: 4px
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home_page .main_title_box {
+        font-size: 30px;
+        right: 10px;
+        bottom: 40px
+    }
+
+    .start-button.start_right {
+        height: 46px;
+        width: 180px;
+        font-size: 23px;
+        line-height: 40px;
+        right: 110px;
+        bottom: 20px
+    }
+
+    .start-button.start_right .fa {
+        padding-left: 6px;
+        position: relative;
+        top: 3px
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .home_page .main_title_box {
+        font-size: 20px;
+        right: 0;
+        left: 0;
+        width: 100%;
+        bottom: 50px
+    }
+
+    .start-button.start_right {
+        height: 46px;
+        width: 180px;
+        font-size: 23px;
+        line-height: 40px;
+        right: 30px
+    }
+}
+
+.tooltip_span {
+    font-size: 14px;
+    text-align: justify
+}
+
+.supplementary_page .supplementary_cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important
+}
+
+@media only screen and (max-width: 768px) {
+    .supplementary_page .supplementary_cover {
+        height: 150px !important;
+        background-position: 30% 35%
+    }
+
+    .supplementary_page .image_title {
+        background-color: rgba(255, 254, 243, .9);
+        padding: 5px 20px;
+        font-size: 20px !important;
+        bottom: 10px;
+        position: absolute;
+        width: 96% !important;
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+        z-index: 100
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .supplementary_page .supplementary_cover {
+        height: 250px !important;
+        background-position: 30% 35%
+    }
+
+    .supplementary_page .image_title {
+        background-color: rgba(255, 254, 243, .9);
+        padding: 5px 40px;
+        font-size: 34px;
+        left: 10px;
+        bottom: 40px;
+        position: absolute;
+        width: 70%;
+        margin-left: 60px;
+        z-index: 100
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .supplementary_page .supplementary_cover {
+        height: 250px !important;
+        background-position: 30% 35%
+    }
+
+    .supplementary_page .image_title {
+        background-color: rgba(255, 254, 243, .9);
+        padding: 5px 40px;
+        font-size: 34px;
+        left: 10px;
+        bottom: 40px;
+        position: absolute;
+        width: 50%;
+        margin-left: 60px;
+        z-index: 100
+    }
+}
+
+.add_button, .popup_add_estate_inheritor {
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    display: flex
+}
+
+.supplementary_page .col-sm-12 {
+    padding-right: 0 !important;
+    padding-left: 0 !important
+}
+
+.supplementary_page .about_title {
+    padding: 5px 40px;
+    font-size: 34px;
+    width: 100%;
+    text-align: center
+}
+
+.supplementary_page .about_content {
+    height: 25px
+}
+
+.supplementary_page .smaller {
+    margin-top: -10px;
+    margin-left: 200px
+}
+
+.supplementary_page .panel {
+    margin-bottom: 0
+}
+
+.supplementary_page .part_box {
+    padding-bottom: 0 !important
+}
+
+.supplementary_page .part_box .col-xs-12 {
+    margin-top: 0 !important
+}
+
+.uneditable-input, input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+    background-color: #f8f8f8;
+    border: 1px solid #f1f1f1;
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 24px;
+    -webkit-transition: border .3s ease 0s;
+    -moz-transition: border .3s ease 0s;
+    -ms-transition: border .3s ease 0s;
+    -o-transition: border .3s ease 0s;
+    transition: border .3s ease 0s
+}
+
+
